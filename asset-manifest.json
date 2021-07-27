@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/myportfolioharsh/static/js/main.a2ea1514.chunk.js",
+    "main.js.map": "/myportfolioharsh/static/js/main.a2ea1514.chunk.js.map",
+    "runtime-main.js": "/myportfolioharsh/static/js/runtime-main.dcdbdcab.js",
+    "runtime-main.js.map": "/myportfolioharsh/static/js/runtime-main.dcdbdcab.js.map",
+    "static/css/2.c268c7e3.chunk.css": "/myportfolioharsh/static/css/2.c268c7e3.chunk.css",
+    "static/js/2.24f0faa0.chunk.js": "/myportfolioharsh/static/js/2.24f0faa0.chunk.js",
+    "static/js/2.24f0faa0.chunk.js.map": "/myportfolioharsh/static/js/2.24f0faa0.chunk.js.map",
+    "index.html": "/myportfolioharsh/index.html",
+    "static/css/2.c268c7e3.chunk.css.map": "/myportfolioharsh/static/css/2.c268c7e3.chunk.css.map",
+    "static/js/2.24f0faa0.chunk.js.LICENSE.txt": "/myportfolioharsh/static/js/2.24f0faa0.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/myportfolioharsh/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/myportfolioharsh/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/myportfolioharsh/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/Ry6p.6bf8eb64.gif": "/myportfolioharsh/static/media/Ry6p.6bf8eb64.gif",
+    "static/media/cavinimg.77adeaa3.jpg": "/myportfolioharsh/static/media/cavinimg.77adeaa3.jpg",
+    "static/media/cointracker.8da9e0cd.jpg": "/myportfolioharsh/static/media/cointracker.8da9e0cd.jpg",
+    "static/media/giphy.32a62a58.webp": "/myportfolioharsh/static/media/giphy.32a62a58.webp",
+    "static/media/greenctg.e51b3bbd.jpg": "/myportfolioharsh/static/media/greenctg.e51b3bbd.jpg",
+    "static/media/projectImg.771236e1.png": "/myportfolioharsh/static/media/projectImg.771236e1.png",
+    "static/media/scroll-down-arrow.8ad25c53.svg": "/myportfolioharsh/static/media/scroll-down-arrow.8ad25c53.svg",
+    "static/media/social-media-arrow.ecc0133c.svg": "/myportfolioharsh/static/media/social-media-arrow.ecc0133c.svg",
+    "static/media/utracker.b6001c97.jpg": "/myportfolioharsh/static/media/utracker.b6001c97.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcdbdcab.js",
+    "static/css/2.c268c7e3.chunk.css",
+    "static/js/2.24f0faa0.chunk.js",
+    "static/js/main.a2ea1514.chunk.js"
+  ]
+}
