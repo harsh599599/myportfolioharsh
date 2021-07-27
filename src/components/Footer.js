@@ -57,11 +57,11 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Harsh Thakkar</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
+            I am a web Developer. I did my B.E in Information Technology from
+            Aditya Silver Oak Institute Of Technology,Ahmedabad,Gujarat. I am
+            currently working as a MERN stack developer.
           </PText>
         </div>
         <div className="footer__col2">
@@ -96,16 +96,12 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 9099466250',
+                path: 'tel:+91 9099466250',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
-              },
-              {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
+                title: 'harshthakkar599@gmail.com',
+                path: 'mailto:harshthakkar599@gmail.com',
               },
             ]}
           />
@@ -115,12 +111,8 @@ export default function Footer() {
             heading="social Links"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
-              },
-              {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'Linkedin',
+                path: 'http://linkedin.com',
               },
               {
                 title: 'Instagram',
@@ -132,12 +124,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>© 2021 - Made with ❤️ by Harsh Thakkar</PText>
         </div>
       </div>
     </FooterStyle>

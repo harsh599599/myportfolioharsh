@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import { Instagram, Linkedin } from 'react-feather';
+import HeroImg from '../assets/images/Ry6p.gif';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -34,21 +35,28 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 900px;
     width: 100%;
-    height: 600px;
+    height: 730px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: -20rem;
   }
-  .hero__social,
+  .hero__social {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+
+    bottom: 550px;
+    width: 50px;
+  }
   .hero__scrollDown {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     position: absolute;
 
-    bottom: 20px;
+    bottom: 350px;
     width: 50px;
   }
   .hero__social {
@@ -87,7 +95,7 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
+
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -153,61 +161,35 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span>Hi, my name is</span>
+            <span className="hero__name">Harsh Thakkar</span>
+            <PText>MERN Stack Developer</PText>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
-            </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="SEE MY WORKS" btnLink="/projects" />
           </div>
           <div className="hero__social">
-            <div className="hero__social__indicator">
-              <p>Follow</p>
-              <img src={SocialMediaArrow} alt="icon" />
-            </div>
             <div className="hero__social__text">
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://isntagram.com/harsh___thakkar19_"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    <Instagram />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="http://www.linkedin.com/in/harsh-thakkar-4b7ab5140"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://webcifar.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LI
+                    <Linkedin />
                   </a>
                 </li>
               </ul>

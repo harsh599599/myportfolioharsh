@@ -1,27 +1,15 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
-    desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+    name: 'Full Stack MERN Bootcamp',
+    org: 'LearnCodeOnline',
+    desc: 'https://i.postimg.cc/fWvssTgV/0001.jpg',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
-    title: 'Co-founder',
-    org: 'Kreetive',
-    desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
-  },
-  {
-    id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
-    desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+    name: 'Responsive web Design',
+    org: 'freecodecamp',
+    desc: 'https://i.postimg.cc/vZjDJFQS/freecodecamp-RWD.png',
   },
 ];
 export default testimonials;

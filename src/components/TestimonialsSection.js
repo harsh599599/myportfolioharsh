@@ -12,7 +12,7 @@ const TestimonialSectionStyles = styled.div`
   text-align: center;
   .testimonial__wrapper {
     position: relative;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
   }
   .testimonial__info {
@@ -103,20 +103,18 @@ export default function TestimonialsSection() {
     <TestimonialSectionStyles>
       <div className="container">
         <SectionTitle
-          subheading="see what our clients say about us"
-          heading="Testimonials"
+          subheading="see my certifications so far!"
+          heading="Certificates 🏆"
         />
         <div className="testimonial__wrapper">
           <SwitchTransition component={null}>
             <CSSTransition key={activeSlide.id} timeout={300} classNames="fade">
               <div className="testimonial__info">
                 <div className="testimonial__desc">
-                  <PText>{activeSlide.desc}</PText>
+                  <img src={activeSlide.desc} alt="" />
                 </div>
                 <h2 className="testimonial__name">{activeSlide.name}</h2>
-                <p className="testimonial__title">
-                  {activeSlide.title}, <br /> {activeSlide.org}
-                </p>
+                <p className="testimonial__title">{activeSlide.org}</p>
               </div>
             </CSSTransition>
           </SwitchTransition>

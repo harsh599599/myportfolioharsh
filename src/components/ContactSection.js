@@ -4,6 +4,7 @@ import { MdEmail, MdLocalPhone } from 'react-icons/md';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
+import FooterCol from './FooterCol';
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;
@@ -58,12 +59,22 @@ export default function ContactSection() {
         <SectionTitle heading="contact" subheading="get in touch" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
-            <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />
-            <ContactInfoItem text="Chittagong, Bangladesh" />
+            <ContactInfoItem icon={<MdLocalPhone />} text="+91 9099466250" />
+            <ContactInfoItem
+              icon={<MdEmail />}
+              text="harshthakkar599@gmail.com"
+            />
           </div>
           <div className="right">
-            <ContactForm />
+            <FooterCol
+              heading="Mail Me"
+              links={[
+                {
+                  title: 'Click Me To Send Mail',
+                  path: 'mailto:harshthakkar599@gmail.com',
+                },
+              ]}
+            />
           </div>
         </div>
       </div>

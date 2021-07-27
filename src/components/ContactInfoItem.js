@@ -12,8 +12,6 @@ const ItemStyles = styled.div`
   border-radius: 8px;
   margin-bottom: 2rem;
   .icon {
-    color: var(--white);
-    background-color: var(--gray-2);
     padding: 1.3rem;
     display: flex;
     align-items: center;

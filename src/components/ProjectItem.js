@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
 
@@ -39,17 +38,18 @@ const ProjectItemStyles = styled.div`
 export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
+  Links = '/projects',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
+      <a href={Links} className="projectItem__img">
+        <img src={img} alt="project img" path={Links} exact />
+      </a>
       <div className="projectItem__info">
-        <Link to="#">
+        <a href={Links}>
           <h3 className="projectItem__title">{title}</h3>
-        </Link>
+        </a>
         <p className="projectItem__desc">{desc}</p>
       </div>
     </ProjectItemStyles>
