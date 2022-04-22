@@ -124,7 +124,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>© 2021 - Made with ❤️ by Harsh Thakkar</PText>
+          <PText>Made with ❤️ by Harsh Thakkar</PText>
         </div>
       </div>
     </FooterStyle>

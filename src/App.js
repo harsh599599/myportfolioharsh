@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Certificates from './pages/Certificates';
+import Skills from './pages/skills';
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
           <Route path="/contact">
             <Contact />

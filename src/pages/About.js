@@ -108,7 +108,9 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Graduation"
-                items={['Aditya Silver Oak Institue Of Technology,Ahmedabad']}
+                items={[
+                  'BE in IT from Aditya Silver Oak Institue Of Technology,Ahmedabad',
+                ]}
               />
             </div>
             <div className="about__info__item">

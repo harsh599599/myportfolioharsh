@@ -12,19 +12,19 @@ const ContactSectionStyle = styled.div`
     display: flex;
     gap: 5rem;
     margin-top: 7rem;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
   }
-  .contactSection__wrapper::after {
-    position: absolute;
-    content: '';
-    width: 2px;
-    height: 50%;
-    background-color: var(--gray-1);
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
-  }
+  // .contactSection__wrapper::after {
+  //   position: absolute;
+  //   content: '';
+  //   width: 2px;
+  //   height: 50%;
+  //   background-color: var(--gray-1);
+  //   left: 50%;
+  //   top: 30%;
+  //   transform: translate(-50%, -50%);
+  // }
   .left {
     width: 100%;
     max-width: 500px;
@@ -38,10 +38,11 @@ const ContactSectionStyle = styled.div`
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
       flex-direction: column;
+      justify-content: center;
     }
-    .contactSection__wrapper::after {
-      display: none;
-    }
+    // .contactSection__wrapper::after {
+    //   display: none;
+    // }
     .left,
     .right {
       max-width: 100%;
@@ -63,17 +64,6 @@ export default function ContactSection() {
             <ContactInfoItem
               icon={<MdEmail />}
               text="harshthakkar599@gmail.com"
-            />
-          </div>
-          <div className="right">
-            <FooterCol
-              heading="Mail Me"
-              links={[
-                {
-                  title: 'Click Me To Send Mail',
-                  path: 'mailto:harshthakkar599@gmail.com',
-                },
-              ]}
             />
           </div>
         </div>

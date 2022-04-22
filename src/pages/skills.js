@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
-import ServicesSectionItem from './ServicesSectionItem';
+import SectionTitle from '../components/SectionTitle';
+import ServicesSectionItem from '../components/ServicesSectionItem';
 import Html from '../assets/images/html.jpg';
 import Css from '../assets/images/css.png';
 import Bootstrap from '../assets/images/bootstrap.png';
@@ -16,6 +16,7 @@ import mongodb from '../assets/images/mongodb.png';
 import gitlab from '../assets/images/gitlab.png';
 
 const ServicesItemsStyles = styled.div`
+  padding: 10rem 0;
   .services__allItems {
     gap: 10rem;
     justify-content: space-between;
@@ -33,7 +34,7 @@ const ServicesItemsStyles = styled.div`
   }
 `;
 
-export default function ServicesSection() {
+export default function Skills() {
   return (
     <ServicesItemsStyles>
       <div className="container">
