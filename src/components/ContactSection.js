@@ -63,7 +63,7 @@ export default function ContactSection() {
             <ContactInfoItem icon={<MdLocalPhone />} text="+91 9099466250" />
             <ContactInfoItem
               icon={<MdEmail />}
-              text="harshthakkar599@gmail.com"
+              text="harshfullstackdevelopment@gmail.com"
             />
           </div>
         </div>
